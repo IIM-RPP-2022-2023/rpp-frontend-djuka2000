@@ -25,9 +25,11 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/assets/css/custom.css",
+              "src/assets/css/aos.css",,
+              "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": ["src/assets/js/aos.js"]
           },
           "configurations": {
             "production": {
@@ -87,6 +89,7 @@
               "src/assets"
             ],
             "styles": [
+              
               "src/styles.css"
             ],
             "scripts": []
@@ -94,5 +97,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
